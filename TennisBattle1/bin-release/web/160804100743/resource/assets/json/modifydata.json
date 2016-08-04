@@ -1,0 +1,6 @@
+{
+  "ballSpeedInit" : 0,
+  "ballfieldWidth" : 500,
+  "ballfieldHeight" : 800,
+  "ballNetLength" : 300
+}

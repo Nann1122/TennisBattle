@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="EndSkin" width="640" height="960" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image id="bg" y="0" rotation="0" x="0" source="game_bg"/>
+	<e:Label id="curScore_label" x="148" y="48" verticalAlign="middle" textAlign="center" fontFamily="微软雅黑" textColor="0xFFFFFF" width="200" height="80" bold="true"/>
+	<e:Image id="rankButton_quanqiu" x="76" y="163" width="249" height="151" source="player_rank1"/>
+	<e:Image id="rankButton_gaofen" source="player_rank0" x="327" y="163" width="249" height="151"/>
+	<e:Image source="rank_quanqiu" x="161" y="183" touchEnabled="false"/>
+	<e:Image source="rank_gaofen" x="415" y="183" touchEnabled="false"/>
+	<e:Image source="rank_bg" x="77" y="233" width="500" height="464"/>
+	<e:Group id="player_rank_group" height="464" width="500" x="77" y="233">
+		<e:Scroller width="500" height="464" x="0" y="0">
+			<e:Group id="player_rank_list">
+				<e:layout>
+					<e:VerticalLayout/>
+				</e:layout>
+			</e:Group>
+		</e:Scroller>
+		<e:Scroller width="500" height="464" x="0" y="0">
+			<e:Group id="player_rank_list1" visible="false">
+				<e:layout>
+					<e:VerticalLayout/>
+				</e:layout>
+			</e:Group>
+		</e:Scroller>
+	</e:Group>
+	<e:Image id="end_more" source="more" horizontalCenter="-150.5" verticalCenter="305.5"/>
+	<e:Image id="end_again" source="TryAgain" verticalCenter="304.5" horizontalCenter="161.5"/>
+</e:Skin>

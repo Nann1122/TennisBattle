@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="GameSkin" width="640" height="960" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image rotation="0" y="0" id="bg" x="0" width="640" height="960" source="game_bg"/>
+	<e:Group y="0" touchEnabled="false" x="0" width="640" height="960" id="player_group">
+		<e:Image id="head_match" source="player_headbg" y="0" touchEnabled="false" width="70" height="70" x="0"/>
+		<e:Label id="name_match" x="75" y="20" size="30" touchEnabled="false" fontFamily="微软雅黑" textAlign="center" width="150" height="40" verticalAlign="middle" textColor="0xFF0000"/>
+		<e:Image id="head_self" source="player_headbg" y="890" touchEnabled="false" width="70" height="70" x="0"/>
+		<e:Label id="name_self" y="900" size="30" touchEnabled="false" fontFamily="微软雅黑" textAlign="center" width="150" height="40" verticalAlign="middle" x="75" textColor="0x0000FF"/>
+	</e:Group>
+	<e:Image source="ballfield" width="500" height="800" horizontalCenter="0" verticalCenter="0" touchEnabled="false"/>
+	<e:Image source="ballnet" width="500" height="10" verticalCenter="0" y="10" horizontalCenter="0" touchEnabled="false"/>
+	<e:Image id="net_self_r" source="net0" x="560" width="20" height="0" y="630" touchEnabled="false"/>
+	<e:Image id="net_match_r" source="net1" x="560" width="20" height="0" y="330" touchEnabled="false"/>
+	<e:Image id="ballnet_left" width="20" height="300" x="60" source="ballnet" y="330" touchEnabled="false"/>
+	<e:Image id="ballnet_right" source="ballnet" x="560" width="20" height="300" y="330" touchEnabled="false"/>
+	<e:Image id="player1" width="150" y="1" height="150" source="player1" touchEnabled="false" x="245" visible="false"/>
+	<e:Image id="player0" y="809" width="150" height="150" touchEnabled="false" horizontalCenter="0" source="player0" visible="false"/>
+	<e:Image id="ball" width="50" height="50" x="295" y="455" source="ball" visible="false"/>
+	<e:Rect height="200" width="200" x="224" y="104" fillColor="0xFF0000" visible="false"/>
+	<e:Group id="scene_group" width="640" x="0" height="960" y="0" touchEnabled="false">
+	</e:Group>
+	<e:Image source="waiting" width="200" touchEnabled="false" height="200" id="waiting" x="220" y="380" visible="false"/>
+</e:Skin>

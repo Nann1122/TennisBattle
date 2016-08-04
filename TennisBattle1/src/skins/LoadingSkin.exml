@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="LoadingSkin" width="640" height="960" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="loading_group" width="640" height="960" x="0" y="0">
+    	<e:Image source="loading_bg" x="0" y="0"/>
+        		<e:Image id="logo_left" source="logo_ani_0" width="50" height="50" x="237" y="378"/>
+        		<e:Image id="logo_right" source="logo_right" width="50" height="50" x="377" y="403"/>
+        		<e:Image id="loading_l" source="l" x="265" y="705"/>
+        		<e:Image id="loading_o" source="o" x="265" y="705"/>
+        		<e:Image id="loading_a" source="a" x="265" y="705"/>
+        		<e:Image id="loading_d" source="d" x="265" y="705"/>
+        		<e:Image id="loading_i" source="i" x="265" y="705"/>
+        		<e:Image id="loading_n" source="n" x="265" y="705"/>
+        		<e:Image id="loading_g" source="g" x="265" y="705"/>
+        		<e:Image id="loading_1" source="1" x="265" y="705"/>
+        		<e:Image id="loading_2" source="2" x="265" y="705"/>
+        		<e:Image id="loading_3" source="3" x="265" y="705"/>
+    </e:Group>
+</e:Skin>

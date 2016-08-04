@@ -1,0 +1,17 @@
+{
+  "1": {"waveType":1, "waveBefore":1000,"baseInterval":5000,"floatInterval":800,"waveContent":"12","loriSpeed":120},
+  "2": {"waveType":1, "waveBefore":4000,"baseInterval":4500,"floatInterval":800,"waveContent":"21","loriSpeed":120},
+  "3": {"waveType":2, "waveBefore":8000,"baseInterval":3000,"floatInterval":200,"waveContent":"212","loriSpeed":120},
+  "4": {"waveType":1, "waveBefore":4000,"baseInterval":4500,"floatInterval":800,"waveContent":"121","loriSpeed":140},
+  "5": {"waveType":1, "waveBefore":4000,"baseInterval":4200,"floatInterval":800,"waveContent":"213","loriSpeed":140},
+  "6": {"waveType":3, "waveBefore":8000,"baseInterval":0,"floatInterval":0,"waveContent":"4","loriSpeed":140},
+  "7": {"waveType":1, "waveBefore":4000,"baseInterval":4200,"floatInterval":800,"waveContent":"312","loriSpeed":160},
+  "8": {"waveType":1, "waveBefore":4000,"baseInterval":4000,"floatInterval":500,"waveContent":"323","loriSpeed":160},
+  "9": {"waveType":2, "waveBefore":8000,"baseInterval":2500,"floatInterval":500,"waveContent":"23213","loriSpeed":160},
+  "10": {"waveType":1, "waveBefore":4000,"baseInterval":4000,"floatInterval":500,"waveContent":"1322","loriSpeed":180},
+  "11": {"waveType":1, "waveBefore":4000,"baseInterval":3800,"floatInterval":500,"waveContent":"2331","loriSpeed":180},
+  "12": {"waveType":3, "waveBefore":8000,"baseInterval":0,"floatInterval":0,"waveContent":"4","loriSpeed":180},
+  "13": {"waveType":1, "waveBefore":4000,"baseInterval":3600,"floatInterval":500,"waveContent":"3223","loriSpeed":200},
+  "14": {"waveType":1, "waveBefore":4000,"baseInterval":3500,"floatInterval":300,"waveContent":"33232","loriSpeed":200},
+  "15": {"waveType":2, "waveBefore":8000,"baseInterval":2000,"floatInterval":500,"waveContent":"232333","loriSpeed":200}
+}

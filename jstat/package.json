@@ -1,0 +1,13 @@
+{
+	"name": "egret",
+	"version": "2.5.6",
+	"modules": [
+		{
+			"name": "jstat",
+			"description": "jstat",
+			"files": ["jstat.min.js","jstat.d.ts"
+],
+			"root": "src"
+		}
+	]
+}

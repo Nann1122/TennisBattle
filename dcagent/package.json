@@ -1,0 +1,12 @@
+{
+	"name": "egret",
+	"version": "3.0.4",
+	"modules": [
+		{
+			"name": "dcagent",
+			"description": "dcagent",
+			"files": ["dcagent.d.ts","dcagent.v2.min.js"],
+			"root": "src"
+		}
+	]
+}
